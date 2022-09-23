@@ -1,23 +1,46 @@
-# morganbergen.github.io
+<!DOCTYPE html>
+<html>
 
-This is my GitHub Pages Website
+<head>
+    <title>clock</title>
+    <style>
+        body {
+            background: #000;
+        }
 
-[Gayle Laakmann McDowell](https://www.google.com/search?client=safari&rls=en&q=gayle+laokmann+mcdowell&ie=UTF-8&oe=UTF-8)
+        h1 {
+            @import url(https://fonts.googleapis.com/css?family=Raleway);
+            @import url(https://fonts.googleapis.com/css?family=Fira+Mono);
+            display: table;
+            text-align: center;
+            margin: 0 auto;
+            text-transform: uppercase;
+            font: 20px sans-serif;
+            padding: 15px;
+            color: #fff;
+            line-height: 200px;
+        }
 
-# Basics
+        #clock {
+            display: table;
+            align-self: center;
+            margin: 0 auto;
+            font: 100px sans-serif;
+            padding: 15px;
+            color: #fff;
+            background: linear-gradient(330deg, #fff200 0%, #ff0000 25%, #ff0077 50%, #ff7b00 75%, #ff0000 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: center;
+        }
+    </style>
+    <!-- center the clock -->
+</head>
 
-Basics on Data Structures and Algorithms 
+<body>
+    <h1>Current Time</h1>
+    <span id="clock""></span>
+    <script src=" scripts/clock.js"></script>
+</body>
 
-Finish Portfolio of Work on Website
-
-- [x] Website
-- [x] Euclidian Algorithm
-- [x] Quicksort Algorithm
-- [x] Youtube History Generator
-HackerRank
-LeetCode
-
-morganbergen.github.io
-
-
-
+</html>
