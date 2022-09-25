@@ -4,8 +4,15 @@
 <head>
     <title>clock</title>
     <style>
-        body {
-            background: #000;
+        p {
+            @import url(https://fonts.googleapis.com/css?family=Raleway);
+            @import url(https://fonts.googleapis.com/css?family=Fira+Mono);
+            display: table;
+            text-align: center;
+            margin: 0 auto;
+            padding: 15px;
+            color: #fff;
+            line-height: 200px;
         }
 
         h1 {
@@ -14,10 +21,9 @@
             display: table;
             text-align: center;
             margin: 0 auto;
-            text-transform: uppercase;
-            font: 20px sans-serif;
+            font: 15px sans-serif;
             padding: 15px;
-            color: #fff;
+            color: grey;
             line-height: 200px;
         }
 
@@ -29,18 +35,27 @@
             padding: 15px;
             color: #fff;
             background: linear-gradient(330deg, #fff200 0%, #ff0000 25%, #ff0077 50%, #ff7b00 75%, #ff0000 100%);
-            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
             line-height: center;
         }
     </style>
-    <!-- center the clock -->
 </head>
 
 <body>
-    <h1>Morgan's Current Time</h1>
+    <h1>press "D" for dark mode "L" for light</h1>
+    <script src=" scripts/background.js"></script>
     <span id="clock""></span>
     <script src=" scripts/clock.js"></script>
+
+
+
 </body>
+
+<!--
+    A Javascript file contains pure JavaScript without the script tag or any other HTML. Using the src attribute
+    has multiple different advantages. The first is the fact of encapsulation. The behaviorand the content of
+    the page are separated.
+-->
 
 </html>
