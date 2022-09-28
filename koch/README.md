@@ -1,12 +1,19 @@
 # Koch Industries Application Notes
 
-## Meetings
+<img align="left" width=10% src="https://user-images.githubusercontent.com/65584733/192853715-3f67ad9c-afe1-4a86-9999-6b4afdc632b9.jpg">
+
+
+## Meeting Notes
 
 [click here to start the virtual meeting](https://app.careerfairplus.com/org/ku_ks/fair/4467/my-activities)
 
 Wed Sept 28 1:00 pm - **Alex Bycroft** -  _Applications Engineering Supervisor_
 
-Wed Sept 28 11:20 am - **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
+**Internship in Wichita, KS**
+
+- notes here
+
+Wed Sept 28 11:20 & 12:20 am - **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
 
 [contact Roberto on LinkedIn here](https://www.linkedin.com/messaging/compose/?connId=r-hurtado&midToken=AQFAV1L692_hog&midSig=07DBR1jvRdgWs1&trk=eml-email_accept_invite_single_01-hero-0-msg~cta&trkEmail=eml-email_accept_invite_single_01-hero-0-msg~cta-null-9hxnue~l8l3j7x5~s2-null-neptune%2Fmessaging.compose)
 
@@ -22,9 +29,7 @@ Wed Sept 28 11:20 am - **Roberto Hurtado** - _Applications Development Superviso
 - culture is nice, biggest one for you to join
 - bluecross blue shield and they offer kilti 
 - Do you prefer software engineering or data engineering?
-
-Atlanta, Georgia
-
+- Second location would be in Atlanta, Georgia
 
 ## Job Interests
 
