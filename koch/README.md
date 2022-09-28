@@ -21,7 +21,7 @@ Wed Sept 28 1:00 pm
 
 2. [The Science of Success - How Market-Based Management Built the World's Largest Private Company](https://www.google.com/books/edition/The_Science_of_Success/ZG1pPhxlFAIC?hl=en&gbpv=0)
 
-3.  [?](www.google.com)
+3.  [?](https://books.google.com)
 
 ### **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
 
