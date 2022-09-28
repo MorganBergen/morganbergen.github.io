@@ -57,14 +57,6 @@ Data Engineering Internship Atlanta, Georgia
 
     Job ID 77461 _applied_
 
-- [x] Cyber Security and Network Operations Internship Summer 2023
-
-    Job ID 77497 _incomplete_
-
-- [x] Invista Cyber Security Co-Op - Spring 2023
-
-    Job ID 82396 _incomplete_
-
 ### [1.  Cloud Engineer, Software Engineer, and Developer Internship](https://jobs.kochcollegerecruiting.com/jobs/10410171-cloud-engineer-software-engineer-and-developer-internship-summer-2023)
 
 [Application](https://css-kochind-prd.inforcloudsuite.com/hcm/Jobs/form/JobApplication%28KOCH,1367922,77440,1%29.ApplicationCompleted?navigation=JobApplication%28KOCH,1367922,77440,1%29.ApplicationCompletedNav&csk.showusingxi=true&csk.IsoLocale=en&csk.hidemenubar=true)
@@ -129,13 +121,9 @@ Personally I am passionate about  Decentralized Application Development on vario
 - Job Number 77461
 
 
-
-### [3. Cyber Security and Network Operations Internship - Summer 2023](https://jobs.kochcareers.com/jobs/10410108-cyber-security-and-network-operations-internship-summer-2023)
-
-### [4. Invista Cyber Security Co-Op - Spring 2023](https://jobs.kochcareers.com/jobs/10508869-invista-cyber-security-co-op-spring-2023)
-
-
-### [5. Mobile Application Developer](https://jobs.kochcareers.com/jobs/9915887-mobile-application-developer)
+[3. Cyber Security and Network Operations Internship - Summer 2023](https://jobs.kochcareers.com/jobs/10410108-cyber-security-and-network-operations-internship-summer-2023)
+[4. Invista Cyber Security Co-Op - Spring 2023](https://jobs.kochcareers.com/jobs/10508869-invista-cyber-security-co-op-spring-2023)
+[5. Mobile Application Developer](https://jobs.kochcareers.com/jobs/9915887-mobile-application-developer)
 
 
 #### Follow-up Message to Roberto
