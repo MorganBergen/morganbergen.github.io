@@ -1,4 +1,4 @@
-# Koch Industries Application Notes!
+# Koch Industries Application Notes
 
 ## Meetings
 
