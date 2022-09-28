@@ -107,7 +107,7 @@ Personally I am passionate about  Decentralized Application Development on vario
 **Responsibilities**
 - AI/Machine Learning 
 
-- Data Scientist/Analyst  
+- Data Scientist/Analyst
 
 - Industrial Robotics/Automation
 
