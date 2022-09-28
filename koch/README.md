@@ -11,6 +11,8 @@
 
 <img align="left" width=10% src="https://user-images.githubusercontent.com/65584733/192859836-19c63d8f-494a-4509-a0ca-0b4d3abb8e7a.png">
 
+[Alex's Linkedin](https://www.linkedin.com/in/alex-bycroft-03a4b990/)
+
 Wed Sept 28 1:00 pm
 
 **Recommended Books**
