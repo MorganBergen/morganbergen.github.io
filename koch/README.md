@@ -2,7 +2,6 @@
 
 <img align="left" width=10% src="https://user-images.githubusercontent.com/65584733/192853715-3f67ad9c-afe1-4a86-9999-6b4afdc632b9.jpg">
 
-
 ## Meeting Notes
 
 [click here to start the virtual meeting](https://app.careerfairplus.com/org/ku_ks/fair/4467/my-activities)
