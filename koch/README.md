@@ -8,10 +8,6 @@ Wed Sept 28 1:00 pm - **Alex Bycroft** -  _Applications Engineering Supervisor_
 
 Wed Sept 28 11:20 am - **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
 
-**Notes**
-
-- Questions asked:  Technical Experience and why I want to work for koch
-
 [message him here](https://www.linkedin.com/messaging/compose/?connId=r-hurtado&midToken=AQFAV1L692_hog&midSig=07DBR1jvRdgWs1&trk=eml-email_accept_invite_single_01-hero-0-msg~cta&trkEmail=eml-email_accept_invite_single_01-hero-0-msg~cta-null-9hxnue~l8l3j7x5~s2-null-neptune%2Fmessaging.compose)
 ## Job Interests
 
