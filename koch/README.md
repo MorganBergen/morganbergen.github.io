@@ -4,7 +4,10 @@
 
 ## Meeting Notes
 
-[click here to start the virtual meeting](https://app.careerfairplus.com/org/ku_ks/fair/4467/my-activities)
+
+[app status](https://css-kochind-prd.inforcloudsuite.com/hcm/CandidateSelfService/lm?stack=44&service=go&context.dataarea=kochind_prd_hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.Source=0&context.session.key.HROrganization=KOCH&context.session.key.noheader=true#)
+
+<!-- [click here to start the virtual meeting](https://app.careerfairplus.com/org/ku_ks/fair/4467/my-activities) -->
 
 ### **Alex Bycroft** -  _Applications Engineering Supervisor_
 
