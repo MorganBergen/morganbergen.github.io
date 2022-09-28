@@ -21,7 +21,7 @@ Wed Sept 28 1:00 pm
 
 2. [The Science of Success - How Market-Based Management Built the World's Largest Private Company](https://www.google.com/books/edition/The_Science_of_Success/ZG1pPhxlFAIC?hl=en&gbpv=0)
 
-3.  [?](www.google.com)
+3.  [?](https://books.google.com)
 
 ### **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
 
@@ -158,7 +158,6 @@ web: morganbergen.com
 email: morgan@ku.edu
 tel: +1 (316) 806 - 3999
 
-
 #### Follow-up Message to Alex Bycroft
 
 Alex,
@@ -177,4 +176,8 @@ Morgan Bergen | B.S. Computer Science, ‘24
 University of Kansas, School of Engineering
 web: morganbergen.com
 email: morgan@ku.edu
+<<<<<<< HEAD
 tel: +1 (316) 806 - 3999
+=======
+tel: +1 (316) 806 - 3999
+>>>>>>> 2feedfc949b8aa77c7a23df87f7d8fa02ff873be
