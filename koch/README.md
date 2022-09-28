@@ -9,6 +9,23 @@ Wed Sept 28 1:00 pm - **Alex Bycroft** -  _Applications Engineering Supervisor_
 Wed Sept 28 11:20 am - **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
 
 [message him here](https://www.linkedin.com/messaging/compose/?connId=r-hurtado&midToken=AQFAV1L692_hog&midSig=07DBR1jvRdgWs1&trk=eml-email_accept_invite_single_01-hero-0-msg~cta&trkEmail=eml-email_accept_invite_single_01-hero-0-msg~cta-null-9hxnue~l8l3j7x5~s2-null-neptune%2Fmessaging.compose)
+
+**Internship in Wichita, KS**
+
+- AWS and Node JS is highly utilized
+- We look mainly for culture fit and we believe that technical can be taught.
+- We are very big into principles integrity, honesty, entrepreneurship.
+- We don't really care too much about skill sets in internships
+- There are quadrants and how technically skilled you are adn hire soft skills an prefer to get both and there is a low turn over rate.
+- Wichita gets to work hybrid, the salary is competitive
+- opportunities to grow based on your goals and your supervisor ask for your goal
+- culture is nice, biggest one for you to join
+- bluecross blue shield and they offer kilti 
+- Do you prefer software engineering or data engineering?
+
+Atlanta, Georgia
+
+
 ## Job Interests
 
 - [x] Cloud Engineer, Software Engineer, and Developer Internship Summer 2023 
