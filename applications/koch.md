@@ -1,0 +1,106 @@
+# Koch Industries Application!
+
+[meetings](https://app.careerfairplus.com/org/ku_ks/fair/4467/my-activities)
+
+Wed Sept 28 1:00 pm - **Alex Bycroft** -  _Applications Engineering Supervisor_
+
+Wed Sept 28 11:20 am - **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
+
+[message him here](https://www.linkedin.com/messaging/compose/?connId=r-hurtado&midToken=AQFAV1L692_hog&midSig=07DBR1jvRdgWs1&trk=eml-email_accept_invite_single_01-hero-0-msg~cta&trkEmail=eml-email_accept_invite_single_01-hero-0-msg~cta-null-9hxnue~l8l3j7x5~s2-null-neptune%2Fmessaging.compose)
+
+
+### [1.  Cloud Engineer, Software Engineer, and Developer Internship](https://jobs.kochcollegerecruiting.com/jobs/10410171-cloud-engineer-software-engineer-and-developer-internship-summer-2023)
+
+[Application](https://css-kochind-prd.inforcloudsuite.com/hcm/Jobs/form/JobApplication%28KOCH,1367922,77440,1%29.ApplicationCompleted?navigation=JobApplication%28KOCH,1367922,77440,1%29.ApplicationCompletedNav&csk.showusingxi=true&csk.IsoLocale=en&csk.hidemenubar=true)
+
+**Responsibilities**
+
+- Design, architect, and build/modify code
+- Build automated unit tests
+- Integrate applications and processes together to streamline our businesses
+- Apply critical thinking to solve problems across complex and distributed systems
+- Work with AWS & APIs to deliver creative, sustainable solutions
+- Provide technical alternatives to address business needs
+- Collaborate as part of a team across multiple IT disciplines
+
+**Requirements**
+
+- [x] Enrolled in Computer Science
+- [x] Eligible for full-time employment by August 2024
+- [x] Initiative, natural curiosity, strong communication skills, and an aptitude for fast-paced learning
+- [x] Entry-level experience or training in one or more of the following front-end or back-end languages: Python, C/C++, Java, SQL, Ruby, Go, Rust or other common industry languages
+- [x] Prior Software Engineering, developer, or IT experience
+
+**Details**
+
+- Location Wichita, Kansas
+
+- Job Number 77440
+
+**Why I would like to apply**
+
+- Cameron Christian & Bridget Waltson, Richard Swan, Mr. Lindwall, Mr. Robertson good work life balance and quality at treating employment
+
+- Entrepreneurship (ex support markdown in documentation)
+
+- Willingness to work in Wichita for the entireity of my career 
+
+
+**Please detail what type of work you are interested in doing/any areas you are passionate about:**
+
+I am most interested in designing APIs and working with AWS for end-to-end iteration of cloud development by implementing algorithms and methods in C++ or Python. Additionally, I am  interested in providing Oxygen documentation and scripting/deploying unit tests for pre-existing functions.
+
+Personally I am passionate about  Decentralized Application Development on various Blockchains. I have experience in building smart contracts on the Ethereum Blockchain implemented in solidity and providing documentation support on deploying smart contracts on the XRPLedger.
+
+
+### [2.  Data Science/Data Analyst Internship - Summer 2023](https://jobs.kochcollegerecruiting.com/jobs/10410182-data-science-slash-data-analyst-internship-summer-2023)
+
+**Responsibilities**
+- AI/Machine Learning 
+
+- Data Scientist/Analyst  
+
+- Industrial Robotics/Automation
+
+- RPA (Robotic Process Automation)
+
+**Details**
+
+- Location Wichita, Kansas
+
+- Job Number 77461
+
+
+
+### [3. Cyber Security and Network Operations Internship - Summer 2023](https://jobs.kochcareers.com/jobs/10410108-cyber-security-and-network-operations-internship-summer-2023)
+
+### [4. Invista Cyber Security Co-Op - Spring 2023](https://jobs.kochcareers.com/jobs/10508869-invista-cyber-security-co-op-spring-2023)
+
+
+### [5. Mobile Application Developer](https://jobs.kochcareers.com/jobs/9915887-mobile-application-developer)
+
+
+https://careerfairplus.whereby.com/9f9a3e94-e665-49fa-94b9-47cdc0f88532?userAuth=off&emptyRoomInvitation=off
+
+
+
+https://careerfairplus.whereby.com/9f9a3e94-e665-49fa-94b9-47cdc0f88532?userAuth=off&emptyRoomInvitation=off
+
+
+Hello Roberto,
+
+I am eager to meet with you again today at 12:20 - 12:40 pm using the same link as prior.  As a contigency, if that link does not work attached is a zipped .vcf (Virtual Contact File) containing my tel where we can conduct our follow-up meeting.
+
+If you would like to additionally add me on GitHub all of my past projects and programming experience can be revealed via my repos there.
+
+https://github.com/MorganBergen
+
+Looking forward to speaking with you again.
+
+Best,
+
+Morgan Bergen | B.S. Computer Science, ‘24
+University of Kansas, School of Engineering
+web: morganbergen.com
+email: morgan@ku.edu
+tel: +1 (316) 806 - 3999
