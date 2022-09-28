@@ -8,11 +8,18 @@
 [click here to start the virtual meeting](https://app.careerfairplus.com/org/ku_ks/fair/4467/my-activities)
 
 ### **Alex Bycroft** -  _Applications Engineering Supervisor_
+
+<img align="left" width=10% src="https://user-images.githubusercontent.com/65584733/192859836-19c63d8f-494a-4509-a0ca-0b4d3abb8e7a.png">
+
 Wed Sept 28 1:00 pm
 
-**Internship in Wichita, KS**
+**Recommended Books**
 
-- Add Notes here
+1. [Good Profit - How Creating Value for Others Built One of the World's Most Successful Companies](https://www.google.com/books/edition/Good_Profit/Kp_GBgAAQBAJ?hl=en&gbpv=0)
+
+2. [The Science of Success - How Market-Based Management Built the World's Largest Private Company](https://www.google.com/books/edition/The_Science_of_Success/ZG1pPhxlFAIC?hl=en&gbpv=0)
+
+3.  [?](www.google.com)
 
 ### **Roberto Hurtado** - _Applications Development Supervisor/Tech Lead_
 
