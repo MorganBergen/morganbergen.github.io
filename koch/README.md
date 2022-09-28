@@ -157,3 +157,23 @@ University of Kansas, School of Engineering
 web: morganbergen.com
 email: morgan@ku.edu
 tel: +1 (316) 806 - 3999
+
+#### Follow-up Message to Alex Bycroft
+
+Alex,
+
+Thank you for meeting with me today. It was enlightening to hear about how your initial interest in Koch came from a sustainability perspective and how career flexibility motivated you to pursue/create a role that didn't exist prior.
+
+I wrote down the two books Good Profit and The Science of Success that make up the "Principle" based management Philosophy at Koch, however, if I recall correctly you stated there was a third book.  Is that third book "Believe in People - Bottom-Up Solutions for a Top-Down"? 
+
+I'm eager to hear back from Koch regarding the next steps if I'm a viable candidate. Here are some notes that I took from our meeting and attached is the updated copy of my updated resume which is also visible on my LinkedIn.
+
+Thank you so much again for your consideration and time.
+
+Best, 
+
+Morgan Bergen | B.S. Computer Science, ‘24
+University of Kansas, School of Engineering
+web: morganbergen.com
+email: morgan@ku.edu
+tel: +1 (316) 806 - 3999
