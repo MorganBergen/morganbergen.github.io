@@ -17,17 +17,13 @@ providing relief from pain and discomfort, not necessarily for rebahilitation
 certfication of diagnosis for hospitic
 
 
-### follow-up email
-
-jharris@ntst.com
-jdrahozal@ntst.com
-
 
 Julia and James,
+jharris@ntst.com
+jdrahozal@ntst.com
+Thank you for meeting with me today.  I was enlightened to hear about how the products you are working on are used for post acute care in healthcare.  Although our meeting would have been more fruitful in person, it was a pleasure meeting with you virtually to learn more about the futures program as well as about NetSmart as a whole.
 
-Thank you for meeting with me today and allowing me the opportunity to interview with NetSmart today.  I was enlightened to hear how the products you are working on are used for post acute care in the healthcare industry today.  And ir was a pleasure speaking to both of you virtually to learn more about the futures program, about NetSmart as a whole, about your individual roles, workflow, and overall experience.
-
-Please let me know if there are any additional action items needed on my end to continue to persue with the interview process and follow up on next steps.
+Please let me know if there are any additional action items needed on my end to persue with the interview process.
 
 Best,
 
@@ -36,3 +32,4 @@ University of Kansas, School of Engineering
 web: morganbergen.com
 email: morgan@ku.edu
 tel: +1 (316) 806 - 3999
+
