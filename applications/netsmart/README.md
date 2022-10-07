@@ -101,15 +101,25 @@ int main() {
 
 
 ### notes
-- Post acute care in 
+- sit stand desks
+- migrating legacy software to AWS is one major project undertaken 
+- Post acute care in
 - home healthcare 
 - hospistic
 - long term memory care
 - behavioral and 
 - palative care 
 - providing relief from pain and discomfort, not necessarily for rebahilitation
-- certfication of diagnosis for hospitic
-
+- certfication of diagnosis for hospice 
+- IDE Intelligey
+- Tech Stack C#, Java, JavaScript, mySQL || SQL Server Backend
+- Confluence Wikiproduct
+- Previous intern worked on UI uplifts from UI editor tools by refactoring separate pages
+	- Garrett at KU?
+- ASPS Markup JavaScript Library
+- Speech to Text API
+- MyUnity Legacy Platform GUI?
+- Silver Light Widits 
 
 ### email follow-up
 Julia and James,
