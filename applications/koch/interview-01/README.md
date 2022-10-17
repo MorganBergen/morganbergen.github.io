@@ -1,5 +1,7 @@
 # Koch Industries Interview
 
+<img width="912" alt="interview" src="https://user-images.githubusercontent.com/65584733/196257526-c2236199-2384-46f9-837e-fd575e33fe57.png">
+
 **Microsoft Teams Meeting** 12:30 - 1:30 pm Monday October 17th 2022
 
 Meeting ID: 299 493 666 843 
