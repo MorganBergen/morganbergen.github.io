@@ -96,8 +96,25 @@ int main() {
 
 
 
+## netsmart
 
+In office and no paid time off.
+In office started on May 31st Software Engineering Internship
 
+Making sure HR approves
+$28 dollars an hour and would need a decision on Monday Nov 
+Software Engineering Futures position
+- netsmart general and send it over now so I should be getting it now
+- Molly will be the main point of contact for this position
+
+Housing will be provided and will house me 10 minutes from headquarters
+Same apartment complex as all of the other internships
+Housing information is not offered in the details
+- 90 days prior to my start date and any 90 days prior to the start day will contain all the info
+
+**What factor influenced my hire**
+
+Great at the technical and could be a possible architect
 
 
 ### notes
