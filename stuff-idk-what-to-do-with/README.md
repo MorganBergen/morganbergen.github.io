@@ -1,48 +1,53 @@
-# copilot setup
+```python
+class koch_employee:
 
-`:Copilot status` will show you the current status of the copilot.
+    def __init__(self, p_name):
+        self.name = p_name
+        self.position = "Networks Developer Intern"
+        self.productivity = []
+        self.values = {}
+        self.intelligence = null
+        self.loyalty = int[1, 2, 3, 4, 5]
+        self.technology_skillset = int[1, 2, 3, 4, 5]
+        self.salary = bool(input("30 hour?"))
 
-`:Copilot enable` 
-
-`:Copilot start`
-
-**pwd to enable and write for configs**
-
-`~/config/nvim/init.vim`
-
-**write out mapping on `init.vim`**
-```
-let g:copilot_filetypes = {'markdown: v:true}
-```
-
-**question**
-
-What if my configs are in oh my zsh as well?
-
-I have a `~/.zshrc` file as well. How do I write out the mapping there?
-
+        def responsibilities(self, p_position):
+        if p_position == "Networks Developer Intern":
+            print("You will be responsible for the following:")
+            roles = ["1.  Will be responsible for the following...\n", "1.  Work with security team to perform tests and uncover vulnterabilities.\n",
+                   "2.  Providing recommendations to improve cypersecurity posture going forward.\n", "3.  Participate in creating Information Security policies, standards, procedures, best practices, and provide guidance on applying them to the enviroment\n", "4.  Continue to quickly learn new systems and products based on business needs\n", "5.  Work on a team of execute project deliverables\n", "6.  Creating status reports, customer reports, and presentations\n", "7.  Assist others in remediating vulnterabilities to maintain a high-secuirty standard."]
+            for i in roles:
+                print(i)
+        elif throw Exception("Invalid Position"):
 
 
-```cli
-total 24
-drwxr-xr-x@ 5 owner  staff   160B Nov  3 13:13 .
-drwxr-xr-x@ 9 owner  staff   288B Nov  3 13:12 ..
--rw-r--r--  1 owner  staff   583B Sep 25 08:38 background.js
--rw-r--r--  1 owner  staff   201B Oct 13 16:13 clock.js
--rw-r--r--  1 owner  staff   2.1K Nov  2 19:14 main.py
-❯ github -r remote
-❯ git -r remote
-unknown option: -r
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
-❯ git -v remote
-git version 2.38.1
-❯ git remote -v
-origin	https://github.com/MorganBergen/morganbergen.github.io.git (fetch)
-origin	https://github.com/MorganBergen/morganbergen.github.io.git (push)
-~/Documents/GitHub/morganbergen.github.io/scripts master !2 ?1
+def trust(boolean, name):
+    if boolean == True:
+        koch_employee = koch_employee("Morgan Bergen")
+        koch_employee.responsibilies(koch_employee.status)
+        return (True);
+	else:
+		kock_employee = koch_employee("different human")
+		return (False)
+
+
+def main():
+
+    the_decision = input(
+        "Do you believe that this employee is a good fit for the position?")
+
+    if the_decision == "yes":
+		trust(True, "Morgan Bergen")
+		print("Welcome to Koch Industries")
+		try:
+			koch_employee.responsibilities(koch_employee.position)
+		except Exception as e:
+            print(e)
+			break
+    elif (the_decision == "no"):
+        print("Thank you for your time, but we will be moving on to the next candidate.")
+
+    
+if __name__ == "__main__":
+    main()
 ```
