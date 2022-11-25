@@ -1,0 +1,50 @@
+@use "sass:list";
+
+.wrapper {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+$orange: #ffd180;
+$yellow: #ffff8d;
+$green: #ccff90;
+$aqua: #a7ffeb;
+$blue: #82b1ff;
+$purple: #b388ff;
+$magenta: #ea80fc;
+$red: #ff80ab;
+// $orange: #FFAB40;
+// $yellow: #FFFF00;
+// $green: #B2FF59;
+// $aqua: #64FFDA;
+// $blue: #448AFF;
+// $purple: #7C4DFF;
+// $magenta: #E040FB;
+// $red: #FF4081;
+
+$colors: $orange, $yellow, $green, $aqua, $blue, $purple, $magenta, $red;
+
+.rainbow {
+  text-shadow: -1px 1px 0 list.nth($colors, 1);
+  animation: 1s infinite rainbowText;
+}
+
+@keyframes rainbowText {
+  $distance: 0.1rem;
+  @for $i from 0 through 8 {
+    #{$i * 100 / 8}% {
+      $shadow: ();
+      @for $c from 1 through 8 {
+        $shadow: append(
+          $shadow,
+          (-1 * $distance * $c)
+            ($distance * $c)
+            list.nth($colors, (($c - $i) %8)+1),
+          comma
+        );
+      }
+      text-shadow: $shadow;
+    }
+  }
+}
