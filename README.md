@@ -3,6 +3,9 @@
 markdown: kramdown
 theme: minimal
 
+[github pages themes - minimal](https://github.com/pages-themes/minimal#usage)
+https://github.com/pages-themes/minimal
+
 ```
 ❯ tree
 .
