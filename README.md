@@ -1,5 +1,8 @@
 [# morganbergen.github.io](https://morganbergen.github.io)
 
+markdown: kramdown
+theme: minimal
+
 ```
 ❯ tree
 .
