@@ -1,5 +1,3 @@
-
-
 window.addEventListener("keydown", event => {
 
     if (event.key == "l") {
@@ -7,6 +5,7 @@ window.addEventListener("keydown", event => {
     }
 
 });
+
 // when you release your key it will stay whites 
 window.addEventListener("keyup", event => {
     if (event.key == "l") {
