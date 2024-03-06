@@ -1,6 +1,12 @@
-#  personal
+# readme for morganbergen.github.io
 
-currently im using squarespace and one.com for my domain and my website
+domains & email
+
+Domain Name System is a protocol for forwarding a domain, or just parts of it. 
+
+Your domain can for example be redirected to a different server, IP address, or another domain
+
+squarespace as a platform
 
 ```cli
    Domain Name: MORGANBERGEN.COM
