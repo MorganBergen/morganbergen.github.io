@@ -1,5 +1,7 @@
 #  readme
 
+###  introduction
+
 [next.js](https://nextjs.org) and [nextra](https://nextra.site/docs/blog-theme/start)
 
 `npm i next react react-dom nextra nextra-theme-blog`
@@ -16,7 +18,7 @@
    - Network:      http://192.168.1.60:3000
 ```
 
-project structure
+###  project structure
 
 ```zsh
 ❯ tree -I "node_modules|dist|.next|.turbo|.git|.vercel|.yarn|package-lock.json|yarn.lock|pnpm-lock.yaml|.github|.eslintrc.*|.prettierrc*|.editorconfig|.eslintcache|.swcrc|.DS_Store|*.log|.idea|.vscode|.env"
@@ -54,21 +56,19 @@ project structure
 9 directories, 21 files
 ```
 
-core configuration files
+###  core configuration files
 
-`next.config.js`
+####  `next.config.js`
 
-`next.js` configuration
+####  `package.json`
 
-`package.json` 
-
-project dependencies and scripts
-
-`theme.config.js` 
-
-customize the site's appearance and metadata
+####  `theme.config.js` 
 
 ```javascript
+/**
+ * @brief   customize the site's appearance and metadata
+ */
+
 const YEAR = new Date().getFullYear();
 
 export default {
@@ -90,4 +90,3 @@ export default {
   ),
 };
 ```
-
