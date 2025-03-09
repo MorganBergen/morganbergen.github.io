@@ -9,11 +9,8 @@
 `app/page.tsx` main page
 </details>
 
-
 <details>
 <summary>&nbsp; project structure</summary>
-
-</details>
 
 
 ```
@@ -52,5 +49,8 @@
 |   `public`    |   static files  |
 |   `src`       |   application source code |
 
+</details>
 
-https://nextjs.org/docs/app/getting-started/project-structure
+
+[reference](https://nextjs.org/docs/app/getting-started/project-structure)
+
