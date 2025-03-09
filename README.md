@@ -13,7 +13,6 @@
 <details>
 <summary>&nbsp; project structure</summary>
 
-
 ```
 .
 ├── README.md
