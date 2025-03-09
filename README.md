@@ -65,10 +65,6 @@
 ####  `theme.config.js` 
 
 ```javascript
-/**
- * @brief   customize the site's appearance and metadata
- */
-
 const YEAR = new Date().getFullYear();
 
 export default {
@@ -90,3 +86,63 @@ export default {
   ),
 };
 ```
+
+`const YEAR = new Date().getFullYear()`
+
+`export default`
+
+`export default { ... }`
+
+`export default { footer: ( ... ) }`
+
+`footer: ( ... )`
+
+`<footer></footer>`
+
+```javascript
+footer: ( 
+  <footer>
+    <small>
+      <time>{ ... }</time>
+      <a>{ ... }</a>
+    </small>
+    <style>{`...`}</style>
+  </footer> 
+),
+```
+
+```javascript
+footer: ( 
+  <footer>
+    <small>
+      <time>{ ... }</time>
+      <a>{ ... }</a>
+    </small>
+    <style>{`
+      footer { ... } 
+      a { ... }
+    `}</style>
+  </footer> 
+),
+```
+
+`<footer>`
+
+
+
+###  `morganbergen/pages/posts/markdown.md`
+
+each blog post is a markdown `.md` file in the `pages/posts` directory
+
+each post has a front matter section between the `---` delimiters containing metadata
+
+to create a new blog post
+
+1.  create a new `.md` file in the `pages/posts` directory
+2.  name it something descriptive, like `my-first-post.md`
+3.  add the front matter section at the top
+4.  write you content using markdown
+
+####  footer
+
+####  header
