@@ -7,7 +7,6 @@
 > [`package.json`](#packagejson)
 >
 > [`tsconfig.json`](#tsconfigjson)
->
 > [`next-env.d.ts`](#next-envdts)
 > 
 > [`next.config.ts`](#nextconfigts)
@@ -17,10 +16,6 @@
 > [`postcss.config.mjs`](#postcssconfigmjs)
 >
 > [`readme.md`](#readmemd)
-
-
-
-##  
 
 ####  project structure
 
