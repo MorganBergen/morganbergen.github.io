@@ -5,15 +5,20 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center p-8">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
-        <div className="w-48 h-48 relative rounded-full overflow-hidden">
+        
+        {/* Example 2: Fixed dimensions */}
+        <div className="relative">
           <Image
             src="/headshot.jpg"
             alt="Morgan Bergen"
-            fill
-            className="object-cover"
-            priority
+            width={200}
+            height={200}
+            className="rounded-lg"
+            quality={90}
           />
         </div>
+
+        
         
         <div className="text-center md:text-left">
           <h1 className="text-4xl font-bold mb-4">Morgan Bergen</h1>
