@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -31,10 +32,15 @@ jobs:
       - name: Build with Next.js
         run: cd my-app && npm run build
       
+      - name: Copy files to root
+        run: |
+          rm -rf docs
+          cp -r my-app/out docs
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: my-app/out
+          path: docs
 
   deploy:
     environment:

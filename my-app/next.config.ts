@@ -6,6 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
+  assetPrefix: './', // Ensure assets are loaded correctly
+  trailingSlash: true, // Add trailing slashes to all routes
 }
 
 export default nextConfig;
