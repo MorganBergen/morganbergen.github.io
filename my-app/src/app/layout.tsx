@@ -9,7 +9,6 @@ export default function RootLayout( { children } :
     <html lang="en">
       <body>
         <header>
-          
           <nav>
             <a href="#home">home</a>
             <a href="#about">about</a>

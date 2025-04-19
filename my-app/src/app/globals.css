@@ -34,45 +34,98 @@
 /* set the background color for the entire page */
 html, body {
   background-color: #0A0A0A;
-  margin: 0;            /* remove default margin */
-  width: 100vw;         /* use viewport width for responsiveness */
-  height: 100vh;        /* use viewport height for responsiveness */
-  max-width: 100vw;     /* prevent horizontal overflow */
-  overflow-x: hidden;   /* prevent horizontal scrolling */
+  margin: 0;              /* remove default margin */
+  width: 100vw;           /* use viewport width for responsiveness */
+  height: 100vh;          /* use viewport height for responsiveness */
+  max-width: 100vw;       /* prevent horizontal overflow */
+  overflow-x: hidden;     /* prevent horizontal scrolling */
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box; /*  ensure padding is included in dimensions */
+  padding: 15px;          /* consistent margin around edges */
 }
 
 /* style the header */
 header {
-  position: fixed; /* Fix the header at the top */
-  top: 15px; /* Margin from the top */
-  left: 15px; /* Margin from the left */
-  right: 15px; /* Margin from the right */
-  height: 75px; /* Set the height of the header */
-  background-color: #141414; /* Set the header color */
-  border-radius: 15px; /* Set the corner radius */
-  border: none; /* Remove any border */
+  background-color: #141414; 
+  position: relative; 
+  width: 100%;
+  height: 75px;           /* set the height of the header */
+  border-radius: 15px;    /* set the corner radius */
+  border: none;           /* remove any border */
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-bottom: 15px;
+}
+
+/* main content */
+.page {
+  background-color: #141414;
+  width: calc(100%);  
+  margin: 0 15px 15px 15px;  
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  padding: 15px;
+  gap: 15px;
+  box-sizing: border-box;
+  min-height: 0;
+}
+
+.column {
+  background-color: #1F1F1F;
+  flex: 1;
+  border-radius: 12px;
+  height: auto;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  min-height: 0;
+  overflow: hidden; /* Prevent overflow */
+}
+
+.box {
+  background-color: #292929;
+  display: flex;
+  border-radius: 12px;
+  padding: 15px;
+  gap: 15px;
+  width: calc(100% - 30px);
+  margin-right: 15px;
+  min-height: 0;
+  flex: 1;
+}
+
+.box-small {
+  flex: 1;
+}
+
+.box-medium {
+  flex: 2;
+}
+
+.box-large {
+  flex: 3;
 }
 
 /*  navigation links */
 nav {
   font-family: 'SF Mono';
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 5rem;
   width: 100%;
 }
 
 nav a {
   font-family: 'SF Mono';
-  color: #939393;
+  color: #C2C2C2;
   text-decoration: underline;
-  margin: 0 20px
 }
 
 @media (max-width: 768px) {
