@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  assetPrefix: './', // Ensure assets are loaded correctly
+  assetPrefix: '.',  // Ensure assets are loaded correctly
 }
 
 export default nextConfig;

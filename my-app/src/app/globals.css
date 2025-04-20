@@ -13,10 +13,10 @@
 
  @font-face {
   font-family: 'SF Pro Text';
-  src:  url('../fonts/SF-Pro-Text-Regular.otf') format('opentype'),
-        url('../fonts/pro.ttf') format('truetype'),
-        url('../fonts/pro.woff') format('woff'),
-        url('../fonts/pro.woff2') format('woff2');
+  src:  url('/fonts/SF-Pro-Text-Regular.otf') format('opentype'),
+        url('/fonts/pro.ttf') format('truetype'),
+        url('/fonts/pro.woff') format('woff'),
+        url('/fonts/pro.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,10 +24,10 @@
 
  @font-face {
   font-family: 'SF Mono';
-  src:  url('../fonts/SF-Mono-Regular.otf') format('opentype'),
-        url('../fonts/mono.ttf') format('truetype'),
-        url('../fonts/mono.woff') format('woff'),
-        url('../fonts/mono.woff2') format('woff2');
+  src:  url('/fonts/SF-Mono-Regular.otf') format('opentype'),
+        url('/fonts/mono.ttf') format('truetype'),
+        url('/fonts/mono.woff') format('woff'),
+        url('/fonts/mono.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
