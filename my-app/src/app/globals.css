@@ -1,4 +1,127 @@
-/* src/app/globals.css */
+/** src/app/globals.css **/
+
+/* set the background color for the entire page */
+html, body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  /*  ensure padding is included in dimensions */
+  box-sizing: border-box; 
+  /* use viewport width for responsiveness */
+  width: 100vw;           
+  /* prevent horizontal overflow */
+  max-width: 100vw;       
+  /* use viewport height for responsiveness */ 
+  height: 100vh;          
+  padding: 15px;          
+  margin: 0;              
+
+  /* prevent horizontal scrolling */
+  overflow-x: hidden;     
+
+  background-color: #0A0A0A;
+}
+
+header {
+  display: flex;
+  position: relative; 
+  align-items: center;
+  justify-content: center;
+  
+  width: 100%;
+  height: 75px;       
+  border-radius: 15px;
+  margin-bottom: 15px;
+
+  background-color: #141414; 
+  border: none;       
+}
+
+/* main content */
+.page {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  box-sizing: border-box;
+  width: calc(100%);  
+  min-height: 0;
+
+  margin: 0 15px 15px 15px;  
+  padding: 15px;
+  gap: 15px;
+
+  background-color: #141414;
+  border-radius: 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 15px;
+  gap: 15px;
+  
+  overflow: hidden; /* Prevent overflow */
+
+  border-radius: 12px;
+  background-color: #1F1F1F;
+}
+
+.box {
+  display: flex;
+  flex: 1;
+
+  width: calc(100% - 30px);
+  min-height: 0;
+  margin-right: 15px;
+  padding: 15px;
+  gap: 15px;
+  
+  border: 2px solid rgba(255, 255, 255, 0.315);
+  border-radius: 12px;
+  background-color: #292929;
+}
+
+.box-small {
+  flex: 1;
+}
+
+.box-medium {
+  flex: 2;
+}
+
+.box-large {
+  flex: 3;
+}
+
+/*  navigation links */
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 5rem;
+  font-family: 'SF Mono';
+}
+
+nav a {
+  font-family: 'SF Mono';
+  text-decoration: underline;
+  color: #C2C2C2;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 80px; /* Adjust header height for smaller screens */
+  }
+}
+
+
 
 /**
  *    font family
@@ -32,106 +155,3 @@
   font-style: normal;
   font-display: swap;
  }
-
-/* set the background color for the entire page */
-html, body {
-  background-color: #0A0A0A;
-  margin: 0;              /* remove default margin */
-  width: 100vw;           /* use viewport width for responsiveness */
-  height: 100vh;          /* use viewport height for responsiveness */
-  max-width: 100vw;       /* prevent horizontal overflow */
-  overflow-x: hidden;     /* prevent horizontal scrolling */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box; /*  ensure padding is included in dimensions */
-  padding: 15px;          /* consistent margin around edges */
-}
-
-/* style the header */
-header {
-  background-color: #141414; 
-  position: relative; 
-  width: 100%;
-  height: 75px;           /* set the height of the header */
-  border-radius: 15px;    /* set the corner radius */
-  border: none;           /* remove any border */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-/* main content */
-.page {
-  background-color: #141414;
-  width: calc(100%);  
-  margin: 0 15px 15px 15px;  
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  border-radius: 15px;
-  padding: 15px;
-  gap: 15px;
-  box-sizing: border-box;
-  min-height: 0;
-}
-
-.column {
-  background-color: #1F1F1F;
-  flex: 1;
-  border-radius: 12px;
-  height: auto;
-  gap: 15px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 15px;
-  min-height: 0;
-  overflow: hidden; /* Prevent overflow */
-}
-
-.box {
-  background-color: #292929;
-  display: flex;
-  border-radius: 12px;
-  padding: 15px;
-  gap: 15px;
-  width: calc(100% - 30px);
-  margin-right: 15px;
-  min-height: 0;
-  flex: 1;
-}
-
-.box-small {
-  flex: 1;
-}
-
-.box-medium {
-  flex: 2;
-}
-
-.box-large {
-  flex: 3;
-}
-
-/*  navigation links */
-nav {
-  font-family: 'SF Mono';
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  width: 100%;
-}
-
-nav a {
-  font-family: 'SF Mono';
-  color: #C2C2C2;
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  header {
-    height: 80px; /* Adjust header height for smaller screens */
-  }
-}
