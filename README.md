@@ -9,21 +9,22 @@
 4.  typography
 
 ```css
+
 .component {
     
-    display: <value>;
-    flex-direction:  <value>;
-    flex:  <value>;
+    display: "value";
+    flex-direction:  "value";
+    flex:  "value";
     
-    box-sizing:  <value>;
-    width: <value>;
-    min-height: <value>;
+    box-sizing:  "value";
+    width: "value";
+    min-height: "value";
 
-    margin:  <value>;
-    padding:  <value>;
-    gap:  <value>;
+    margin:  "value";
+    padding:  "value";
+    gap:  "value";
 
-    background-color:  <value>;
-    border-radius:  <value>;
+    background-color:  "value";
+    border-radius:  "value";
 }  
 ```
