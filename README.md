@@ -1,7 +1,14 @@
 #  notes
 
 
-`globals.css`
+
+
+
+<details>
+<summary><code>globals.css</code></summary>
+
+
+```css
 
 1.  layout and positioning
 2.  box model
@@ -28,3 +35,5 @@
     border-radius:  "value";
 }  
 ```
+
+</details>
