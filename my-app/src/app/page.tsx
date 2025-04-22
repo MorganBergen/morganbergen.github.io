@@ -5,30 +5,69 @@
  **/
 
 import "./globals.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="page">
       <div className="column">
         <div className="box box-small">
-          <div className="inner-column"></div>          
-          <div className="inner-column"></div>          
-          <div className="inner-column"></div>          
-                 
-          
+          <div className="inner-column">
+            <Image
+              src="/me.jpeg"
+              alt="headshot"
+              width={200}
+              height={200}
+              className="headshot"
+              style={{ objectFit: 'cover', borderRadius: "15px" }}
+            />
+          </div>
+          <div className="inner-column"></div>
         </div>
-        <div className="box box-small"></div>
-        <div className="box box-small"></div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
       </div>
       <div className="column">
-        <div className="box box-small"></div>
-        <div className="box box-small"></div>
-        <div className="box box-small"></div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
       </div>
       <div className="column">
-        <div className="box box-small"></div>
-        <div className="box box-small"></div>
-        <div className="box box-small"></div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
+        <div className="box box-small">
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+          <div className="inner-column"></div>
+        </div>
       </div>
     </main>
   );
