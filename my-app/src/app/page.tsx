@@ -13,14 +13,17 @@ export default function Home() {
       <div className="column">
         <div className="box box-small">
           <div className="inner-column">
-            <Image
-              src="/me.jpeg"
-              alt="headshot"
-              width={200}
-              height={200}
-              className="headshot"
-              style={{ objectFit: 'cover', borderRadius: "15px" }}
-            />
+            <div className="headshot-container">
+              <Image
+                src="/headshot.jpeg"
+                alt="headshot"
+                width={200}
+                height={200}
+                className="headshot"
+                style={{ objectFit: 'cover' }}
+              />
+              <div className="headshot-overlay" />
+            </div>
           </div>
           <div className="inner-column"></div>
         </div>

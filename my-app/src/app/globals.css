@@ -26,6 +26,8 @@
   --gray-1100: #1F1F1F;
   --gray-1150: #141414;
   --gray-1200: #0A0A0A;
+
+  --transparent: transparent;
 }
 
 /* set the background color for the entire page */
@@ -119,6 +121,7 @@ header {
 .inner-column {
   flex: 1; /* optional: allows equal sizing */
   display: flex;
+  position: relative;
   flex-direction: column;
   background-color: var(--gray-1000);
   border-radius: 12px;
@@ -141,16 +144,43 @@ header {
 }
 
 .headshot {
-  border: 3px solid var(--gray-600);
+  width: 100%;
+  height: 100%;
+  border: none;
   border-radius: 15px;
   transition: all 0.3s ease;
+}
+
+.headshot-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transition: all 0.3s ease;
+  border: 1.5px solid var(--gray-600);
+  border-radius: 15px;
   box-shadow: 0 0 20px 0 rgba(184, 184, 184, 0.5);
 }
 
-.headshot:hover {
-  transform: scale(1.13);
+.headshot-container:hover {
   border-color: var(--gray-300);
   box-shadow: 0 0 20px 0 rgba(184, 184, 184, 0.7);
+  transform: scale(1.05);
+}
+
+.headshot-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(134, 134, 134, 0.22);
+  backdrop-filter: blur(25px);
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  z-index: 1;
+  transition: all 0.3s ease;
 }
 
 /*  navigation links */
