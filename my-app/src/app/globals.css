@@ -123,6 +123,9 @@ header {
   background-color: var(--gray-1000);
   border-radius: 12px;
   /* Remove margin completely */
+
+  align-items: center;
+  justify-content: center;
 }
 
 .box-small {
@@ -135,6 +138,19 @@ header {
 
 .box-large {
   flex: 3;
+}
+
+.headshot {
+  border: 3px solid var(--gray-600);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px 0 rgba(184, 184, 184, 0.5);
+}
+
+.headshot:hover {
+  transform: scale(1.13);
+  border-color: var(--gray-300);
+  box-shadow: 0 0 20px 0 rgba(184, 184, 184, 0.7);
 }
 
 /*  navigation links */
