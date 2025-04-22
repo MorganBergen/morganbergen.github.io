@@ -83,7 +83,7 @@ header {
   padding: 15px;
   gap: 15px;
   
-  border: 2px solid rgba(255, 255, 255, 0.315);
+  /* border: 2px solid rgba(255, 255, 255, 0.315); */
   border-radius: 12px;
   background-color: #292929;
 }
