@@ -25,7 +25,21 @@ export default function Home() {
               <div className="headshot-overlay" />
             </div>
           </div>
-          <div className="inner-column"></div>
+          <div className="inner-column">
+            <h4>about</h4>
+            <br></br>
+            <p className="primary">
+              {/* <Image
+                src="/public/person-fill.textClipping"
+                alt="person icon"
+                width={10}
+                height={10}
+                style={{ display: 'inline' }}
+              /> */}
+              morgan bergen
+            </p>
+            <p className="secondary">name</p>
+          </div>
         </div>
         <div className="box box-small">
           <div className="inner-column"></div>

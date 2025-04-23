@@ -125,10 +125,40 @@ header {
   flex-direction: column;
   background-color: var(--gray-1000);
   border-radius: 12px;
-  /* Remove margin completely */
+  padding: 15px;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 
+.inner-column p {
+  font-family: 'SF Pro Text';
+  font-size: 10px;
+  margin: 0;
+  text-align: left;
+  font-weight: 300;
+  width: 100%;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 5px;
+}
+
+.inner-column p.primary {
+  color: var(--gray-600);
+}
+
+.inner-column p.secondary {
+  color: var(--gray-900);
+}
+
+.inner-column h4 {
+  font-family: 'SF Pro Text';
+  font-size: 20px;
+  color: var(--gray-600);
+  margin: 0;
+  text-align: left;
+  font-weight: normal;
+  width: 100%;
 }
 
 .box-small {
@@ -221,7 +251,7 @@ nav a {
         url('/fonts/pro.ttf') format('truetype'),
         url('/fonts/pro.woff') format('woff'),
         url('/fonts/pro.woff2') format('woff2');
-  font-weight: normal;
+  
   font-style: normal;
   font-display: swap;
  }
