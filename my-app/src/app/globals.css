@@ -36,7 +36,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   
-  /*  ensure padding is included in dimensions */
+  /* ensure padding is included in dimensions */
   box-sizing: border-box; 
   /* use viewport width for responsiveness */
   width: 100vw;           
@@ -73,128 +73,154 @@ header {
 .page {
   display: flex;
   flex-direction: row;
-  flex: 1;
+  flex: 1; /* Allow page to fill remaining space */
 
   box-sizing: border-box;
-  width: calc(100%);  
-  min-height: 0;
+  width: 100%; /* Fill width */
+  min-height: 0; /* Needed for flex child proper sizing */
 
-  margin: 0 15px 15px 15px;  
-  /* padding is added to the element's width and height */
+  /* margin: 0 15px 15px 15px; */ /* Removed outer margin, handled by body padding */
   padding: 15px;
-  /* gap means the children will have space between them */
   gap: 15px;
 
   background-color:  var(--gray-1150);
   border-radius: 15px;
-  /* border: 2px solid rgba(255, 255, 255, 0.315); */
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 1; /* Each column takes equal width */
 
-  width: 100%;
-  height: auto;
-  min-height: 0;
+  /* width: 100%; */ /* Redundant when flex: 1 is used on parent */
+  height: 100%; /* Fill column height */
+  min-height: 0; /* Needed for flex child proper sizing */
   padding: 15px;
   gap: 15px;
   
-  overflow: hidden; /* Prevent overflow */
+  overflow-y: auto; /* Allow column scrolling if content overflows */
+  overflow-x: hidden;
 
   border-radius: 12px;
-  /* background-color: #1F1F1F; */
   background-color: var(--gray-1100);
-  /* border: 2px solid rgba(255, 255, 255, 0.315); */
 }
 
 .box {
   display: flex;
-  flex-direction: row;
-  padding: 15px; /* this wraps around all children */
-  gap: 15px;     /* this sets spacing between children */
+  flex-direction: column; /* Changed to column for default stacking inside box */
+  padding: 15px;
+  gap: 10px; /* Reduced gap slightly */
   border-radius: 12px;
   background-color: var(--gray-1050);
+  width: 100%; /* Ensure box takes full width of column */
+  box-sizing: border-box;
+}
+
+/* Added specific styles for boxes that need row layout */
+.box-row {
+  flex-direction: row;
+  gap: 15px;
 }
 
 .inner-column {
-  flex: 1; /* optional: allows equal sizing */
+  flex: 1;
   display: flex;
   position: relative;
   flex-direction: column;
   background-color: var(--gray-1000);
   border-radius: 12px;
   padding: 15px;
-  width: 100%;
+  /* width: 100%; */ /* Often not needed when flex: 1 is used */
   align-items: flex-start;
   justify-content: flex-start;
+  gap: 5px; /* Add some gap between elements inside inner-column */
 }
 
-.inner-column p {
-  font-family: 'SF Pro Text';
-  font-size: 10px;
-  margin: 0;
+/* Specific styling for content directly inside a box, not in an inner-column */
+.box > h4, .box > p, .box > div:not(.inner-column) {
+    padding-left: 5px; /* Add slight indent for direct children */
+    padding-right: 5px;
+}
+
+
+/* Text Styles */
+p, h4, span, div { /* Apply base font */
+    font-family: 'SF Pro Text', sans-serif; /* Added sans-serif fallback */
+    color: var(--gray-300); /* Default text color */
+    margin: 0;
+}
+
+h4 {
+  font-size: 16px; /* Adjusted size */
+  color: var(--gray-400);
+  font-weight: 600; /* Slightly bolder */
+  margin-bottom: 5px; /* Space below heading */
+  width: 100%;
+}
+
+p {
+  font-size: 12px; /* Slightly larger base paragraph size */
   text-align: left;
-  font-weight: 300;
+  font-weight: 400; /* Regular weight */
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px; /* Slightly more gap */
+  line-height: 1.4;
 }
 
-.inner-column p.primary {
-  color: var(--gray-600);
+p.primary {
+  color: var(--gray-100); /* Brighter primary text */
 }
 
-.inner-column p.secondary {
-  color: var(--gray-900);
+p.secondary {
+  color: var(--gray-600); /* Subdued secondary text */
+  font-size: 11px; /* Smaller secondary text */
 }
 
-.inner-column h4 {
-  font-family: 'SF Pro Text';
-  font-size: 20px;
-  color: var(--gray-600);
-  margin: 0;
-  text-align: left;
-  font-weight: normal;
-  width: 100%;
-}
-
+/* Box sizes */
 .box-small {
-  flex: 1;
+  min-height: 150px; /* Example min-height */
+  flex-grow: 1; /* Allows boxes to grow based on content */
 }
 
 .box-medium {
-  flex: 2;
+  min-height: 250px; /* Example min-height */
+  flex-grow: 2;
 }
 
 .box-large {
-  flex: 3;
+  min-height: 350px; /* Example min-height */
+  flex-grow: 3;
 }
 
+/* Headshot Styles */
 .headshot {
+  display: block; /* Prevents extra space below image */
   width: 100%;
   height: 100%;
-  border: none;
+  object-fit: cover; /* Ensure image covers the area */
   border-radius: 15px;
   transition: all 0.3s ease;
 }
 
 .headshot-container {
   position: relative;
-  width: 200px;
-  height: 200px;
-  transition: all 0.3s ease;
-  border: 1.5px solid var(--gray-600);
+  width: 100%; /* Make container fill its parent */
+  aspect-ratio: 1 / 1; /* Maintain square shape */
+  max-width: 180px; /* Limit max size */
+  margin-bottom: 10px; /* Space below image */
+  border: 1.5px solid var(--gray-800); /* Darker border */
   border-radius: 15px;
-  box-shadow: 0 0 20px 0 rgba(184, 184, 184, 0.5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adjusted shadow */
+  transition: all 0.3s ease;
+  overflow: hidden; /* Keep overlay contained */
 }
 
 .headshot-container:hover {
-  border-color: var(--gray-300);
-  box-shadow: 0 0 20px 0 rgba(184, 184, 184, 0.7);
-  transform: scale(1.05);
+  border-color: var(--gray-600);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.03); /* Slightly smaller hover effect */
 }
 
 .headshot-overlay {
@@ -202,72 +228,206 @@ header {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 20%;
-  background-color: rgba(134, 134, 134, 0.22);
-  backdrop-filter: blur(25px);
+  height: 25%; /* Slightly taller overlay */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); /* Gradient overlay */
+  /* backdrop-filter: blur(5px); */ /* Optional: blur effect */
   border-bottom-left-radius: 13px;
   border-bottom-right-radius: 13px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
   z-index: 1;
   transition: all 0.3s ease;
+  /* Remove text display from overlay if not needed */
 }
 
-/*  navigation links */
+/* Navigation */
 nav {
   display: flex;
   justify-content: center;
+  align-items: center; /* Vertically center links */
   width: 100%;
   gap: 5rem;
-  font-family: 'SF Mono';
+  font-family: 'SF Mono', monospace; /* Added monospace fallback */
+  height: 100%; /* Fill header height */
 }
 
 nav a {
-  font-family: 'SF Mono';
-  text-decoration: underline;
-  color: #C2C2C2;
+  font-family: 'SF Mono', monospace;
+  text-decoration: none; /* Remove underline */
+  color: var(--gray-500); /* Dimmer nav link color */
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  header {
-    height: 80px; /* Adjust header height for smaller screens */
+nav a:hover {
+  color: var(--gray-100); /* Brighter hover color */
+  background-color: var(--gray-1000); /* Subtle hover background */
+}
+
+
+/* Utility Classes */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em; /* Adjust alignment */
+  fill: currentColor;
+  margin-right: 6px; /* Space after icon */
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background-color: var(--gray-900);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: var(--gray-400); /* Or a specific color */
+    border-radius: 4px;
+}
+
+.map-placeholder {
+    width: 100%;
+    height: 150px; /* Adjust as needed */
+    background-color: var(--gray-950);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-700);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.account-link {
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-1000);
+    padding: 8px 12px;
+    border-radius: 8px;
+    gap: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.account-link:hover {
+    background-color: var(--gray-950);
+}
+
+.account-icon {
+    font-size: 1.5em; /* Larger icons for accounts */
+    color: var(--gray-400);
+}
+
+.account-info {
+    flex: 1;
+}
+
+.account-info p {
+    line-height: 1.2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .page {
+    flex-direction: column; /* Stack columns on smaller screens */
+    height: auto; /* Allow height to adjust */
+    overflow-y: auto; /* Enable scrolling for the whole page */
+  }
+  .column {
+    height: auto; /* Allow column height to adjust */
+    overflow-y: visible; /* Disable individual column scrolling */
+  }
+  nav {
+    gap: 2rem; /* Reduce nav gap */
   }
 }
 
-/**
- *    font family
- *    SF-Pro-Text-Regular  - pro
- *    SF-Mon-Regular       - mono
- *
- *    .otf      opentype
- *    .ttf      truetype
- *    .woff     woff
- *    .woff2    woff2
- **/
+@media (max-width: 768px) {
+  html, body {
+     padding: 10px;
+  }
+  header {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  .page {
+      padding: 10px;
+      gap: 10px;
+  }
+  .column {
+      padding: 10px;
+      gap: 10px;
+  }
+  .box {
+      padding: 10px;
+      gap: 8px;
+  }
+  .inner-column {
+      padding: 10px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 11px;
+  }
+  p.secondary {
+    font-size: 10px;
+  }
+  .headshot-container {
+      max-width: 120px;
+  }
+  nav a {
+      font-size: 12px;
+      padding: 4px 8px;
+  }
+  nav {
+      gap: 1rem;
+  }
+}
 
+/** Font Faces **/
  @font-face {
   font-family: 'SF Pro Text';
-  src:  url('/fonts/SF-Pro-Text-Regular.otf') format('opentype'),
-        url('/fonts/pro.ttf') format('truetype'),
+  src:  url('/fonts/SF-Pro-Text-Regular.otf') format('opentype');
+        /* Add other formats if available */
+        /* url('/fonts/pro.ttf') format('truetype'),
         url('/fonts/pro.woff') format('woff'),
-        url('/fonts/pro.woff2') format('woff2');
-  
+        url('/fonts/pro.woff2') format('woff2'); */
+  font-weight: 400; /* Explicitly set weight */
   font-style: normal;
   font-display: swap;
  }
 
+  @font-face {
+  font-family: 'SF Pro Text';
+  src:  url('/fonts/SF-Pro-Text-Semibold.otf') format('opentype');
+  font-weight: 600; /* Semibold weight */
+  font-style: normal;
+  font-display: swap;
+ }
+
+  @font-face {
+  font-family: 'SF Pro Text';
+  src:  url('/fonts/SF-Pro-Text-Light.otf') format('opentype');
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+  font-display: swap;
+ }
+
+
  @font-face {
   font-family: 'SF Mono';
-  src:  url('/fonts/SF-Mono-Regular.otf') format('opentype'),
-        url('/fonts/mono.ttf') format('truetype'),
+  src:  url('/fonts/SF-Mono-Regular.otf') format('opentype');
+       /* Add other formats if available */
+       /* url('/fonts/mono.ttf') format('truetype'),
         url('/fonts/mono.woff') format('woff'),
-        url('/fonts/mono.woff2') format('woff2');
+        url('/fonts/mono.woff2') format('woff2'); */
   font-weight: normal;
   font-style: normal;
   font-display: swap;
  }
-
- /*
-
- <?xml version="1.0" encoding="UTF-8"?> <!--Generator: Apple Native CoreSVG 326--> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.3139 24.3569">  <g>   <rect height="24.3569" opacity="0" width="24.3139" x="0" y="0"/>   <path d="M0.864874 7.85887C1.42724 7.85887 1.72977 7.54025 1.72977 6.9779L1.72977 3.88314C1.72977 2.48878 2.47218 1.76747 3.8349 1.76747L6.9824 1.76747C7.54477 1.76747 7.85786 1.45439 7.85786 0.902587C7.85786 0.340239 7.54477 0.0271415 6.9824 0.0271415L3.80273 0.0271415C1.28417 0.0271415 0 1.30076 0 3.79821L0 6.9779C0 7.54025 0.313103 7.85887 0.864874 7.85887ZM23.4488 7.85887C24.0167 7.85887 24.3137 7.54025 24.3137 6.9779L24.3137 3.79821C24.3137 1.31182 23.0456 0.0271415 20.5109 0.0271415L17.3368 0.0271415C16.7689 0.0271415 16.4558 0.340239 16.4558 0.902587C16.4558 1.45439 16.7689 1.76747 17.3368 1.76747L20.4787 1.76747C21.8194 1.76747 22.5894 2.48878 22.5894 3.88314L22.5894 6.9779C22.5894 7.54025 22.897 7.85887 23.4488 7.85887ZM3.80273 24.3569L6.9824 24.3569C7.54477 24.3569 7.85786 24.0438 7.85786 23.492C7.85786 22.9296 7.54477 22.6166 6.9824 22.6166L3.8349 22.6166C2.47218 22.6166 1.72977 21.8952 1.72977 20.5009L1.72977 17.4167C1.72977 16.8438 1.41668 16.5251 0.864874 16.5251C0.302537 16.5251 0 16.8438 0 17.4167L0 20.5858C0 23.0833 1.28417 24.3569 3.80273 24.3569ZM17.3368 24.3569L20.5109 24.3569C23.0456 24.3569 24.3137 23.0722 24.3137 20.5858L24.3137 17.4167C24.3137 16.8438 24.0061 16.5251 23.4488 16.5251C22.8864 16.5251 22.5894 16.8438 22.5894 17.4167L22.5894 20.5009C22.5894 21.8952 21.8194 22.6166 20.4787 22.6166L17.3368 22.6166C16.7689 22.6166 16.4558 22.9296 16.4558 23.492C16.4558 24.0438 16.7689 24.3569 17.3368 24.3569Z" fill="white" fill-opacity="0.85"/>   <path d="M5.75383 19.5393L18.5598 19.5393C19.0498 19.5393 19.278 19.2257 19.278 18.7513C19.278 17.2333 17.0051 13.2354 12.1488 13.2354C7.303 13.2354 5.0251 17.2333 5.0251 18.7513C5.0251 19.2257 5.25327 19.5393 5.75383 19.5393ZM12.1488 12.1045C14.116 12.1256 15.6973 10.4484 15.6973 8.23434C15.6973 6.16001 14.116 4.43401 12.1488 4.43401C10.1815 4.43401 8.60579 6.16001 8.60579 8.23434C8.60579 10.4484 10.1815 12.094 12.1488 12.1045Z" fill="white" fill-opacity="0.85"/>  </g> </svg>
- */
