@@ -431,3 +431,16 @@ nav a:hover {
   font-style: normal;
   font-display: swap;
  }
+
+/* Homepage UI image styles */
+.ui-homepage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.ui-dark { display: none; }
+
+@media (prefers-color-scheme: dark) {
+  .ui-light { display: none; }
+  .ui-dark { display: block; }
+}
