@@ -1,6 +1,14 @@
 /**
- * @file         src/app/layout.tsx
- * @description  Root layout for the application
+ * comments in deoxygen style below
+ **/
+
+
+/**
+ * @file            src/app/layout.tsx
+ * @description     root layout for the application
+ * @version         1.0.0
+ * @date            @2025-08-07
+ * @author          morgan bergen
  */
 import type { Metadata } from "next";
 import "./globals.css"; // Ensure global styles are imported
