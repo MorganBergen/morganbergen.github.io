@@ -61,7 +61,6 @@ export default function Home() {
               />
             </div>
           </div>
-
           <div className="box box-small">
             <div className="inner-column">
               <p className="primary">quick links</p>
