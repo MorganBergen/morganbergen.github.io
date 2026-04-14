@@ -1,6 +1,8 @@
 #  quick start
 
-react documentation 
+react documentation and example programs to view
+
+###  table of contents
 
 1.  [create and nest components](#creating-and-nesting-components)
 2.  add markup and styles
@@ -8,6 +10,15 @@ react documentation
 4.  render conditions and lists
 5.  respond to events and update the screen
 6.  share data between two components
+
+###  program
+
+`npm install`  
+`npm start`
+
+that should start the react dev server, usually at [http://localhost:3000](http://localhost:3000)
+
+
 
 ##  creating and nesting components
 
