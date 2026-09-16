@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>morgan</title>
+    <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+              body {
+                font-family: sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+              }
+
+              header    { height: 80px: }
+              nav       { height: 50px; }
+              main      { flex: 1; min-height: 300px; }
+              footer    { height: 60px; }
+
+              header, nav, main, footer {
+                position: relative;
+                border: 0.5px solid white;
+                margin: 20px;
+              }
+
+              :root {
+                --color-0: #0A0A0A;
+                --color-1: #141414;
+                --color-2: #1F1F1F;
+                --color-3: #292929;
+                --color-4: #333333;
+                --color-5: #3D3D3D;
+                --color-6: #474747;
+                --color-7: #525252;
+                --color-8: #5C5C5C;
+                --color-9: #666666;
+                --color-A: #707070;
+                --color-B: #7A7A7A;
+                --color-C: #858585;
+                --color-D: #8F8F8F;
+                --color-E: #999999;
+                --color-F: #A3A3A3;
+                --color-G: #ADADAD;
+                --color-H: #B8B8B8;
+                --color-I: #C2C2C2;
+                --color-J: #CCCCCC;
+                --color-K: #D6D6D6;
+                --color-L: #E0E0E0;
+                --color-M: #EBEBEB;
+                --color-N: #F5F5F5;
+                --color-O: #FFFFFF;
+              }
+
+
+              body { border-color: white; background-color: #0A0A0A; }
+              header { border-color: white; background-color: #141414;}
+              nav { border-color:white; background-color: #1F1F1F; }
+              main { border-color: white; background-color: #141414; }
+              footer { border-color: white; background-color:  #141414; }
+
+              header::after, nav::after, main::after, footer:after {
+                position: absolute;
+                bottom: 5px;
+                right: 5px;
+                font-family: monospace;
+                font-size: 11px;
+                font-weight: bold;
+                padding: 2px
+              }
+      <!---->
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <section></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
