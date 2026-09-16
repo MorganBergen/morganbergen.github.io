@@ -12,7 +12,7 @@
         }
 
               body {
-                font-family: sans-serif;
+                font-family: monospace;
                 display: flex;
                 flex-direction: column;
                 min-height: 100vh;
@@ -58,11 +58,11 @@
               }
 
 
-              body { border-color: white; background-color: #0A0A0A; }
-              header { border-color: white; background-color: #141414;}
-              nav { border-color:white; background-color: #1F1F1F; }
-              main { border-color: white; background-color: #141414; }
-              footer { border-color: white; background-color:  #141414; }
+              body { border-color: white; background-color: #0A0A0A; border-radius: 8px; }
+              header { border-color: white; background-color: #141414; border-radius: 8px; }
+              nav { border-color:white; background-color: #1F1F1F; border-radius: 8px; }
+              main { border-color: white; background-color: #141414; border-radius: 8px; }
+              footer { border-color: white; background-color:  #141414; border-radius: 8px; }
 
               header::after, nav::after, main::after, footer:after {
                 position: absolute;
@@ -71,8 +71,19 @@
                 font-family: monospace;
                 font-size: 11px;
                 font-weight: bold;
-                padding: 2px
+                padding: 2px 6px;
+                border-radius: 3px;
+                color: white;
+                pointer-events: none;
+                opacity: 0.8;
               }
+
+              header::after { content: "header"; background: transparent }
+              nav::after { content: "navigation"; background: transparent }
+              main::after { content: "main"; background: transparent }
+              footer::after { content: "footer"; background: transparent }
+
+
       <!---->
     </style>
   </head>
